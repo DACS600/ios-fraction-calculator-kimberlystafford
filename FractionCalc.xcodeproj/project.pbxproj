@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3959D3C5215AA00B0037B4D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3959D3C4215AA00B0037B4D9 /* main.m */; };
+		3959D3CC215AA0700037B4D9 /* fracCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3959D3CB215AA0700037B4D9 /* fracCalc.m */; };
+		3959D3CE215AA0900037B4D9 /* frac.m in Sources */ = {isa = PBXBuildFile; fileRef = 3959D3CD215AA0900037B4D9 /* frac.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		3959D3C1215AA00B0037B4D9 /* FractionCalc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FractionCalc; sourceTree = BUILT_PRODUCTS_DIR; };
 		3959D3C4215AA00B0037B4D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3959D3CB215AA0700037B4D9 /* fracCalc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fracCalc.m; sourceTree = "<group>"; };
+		3959D3CD215AA0900037B4D9 /* frac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = frac.m; sourceTree = "<group>"; };
+		3959D3CF215AA0B40037B4D9 /* fracCalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fracCalc.h; sourceTree = "<group>"; };
+		3959D3D0215AA0BC0037B4D9 /* frac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = frac.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				3959D3C4215AA00B0037B4D9 /* main.m */,
+				3959D3CF215AA0B40037B4D9 /* fracCalc.h */,
+				3959D3CB215AA0700037B4D9 /* fracCalc.m */,
+				3959D3D0215AA0BC0037B4D9 /* frac.h */,
+				3959D3CD215AA0900037B4D9 /* frac.m */,
 			);
 			path = FractionCalc;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3959D3CC215AA0700037B4D9 /* fracCalc.m in Sources */,
+				3959D3CE215AA0900037B4D9 /* frac.m in Sources */,
 				3959D3C5215AA00B0037B4D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
