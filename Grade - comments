@@ -1,0 +1,8 @@
+Grade - check
+
+1 - The output would be much better if you used printf instead of NSLog.
+2 - You seem to have a bit of output that you were using to debug / check to see if you were doing things correctly.  You should neaten
+these things for your final submission.
+3 - The fraction calculator should have the fractions, not the main method.
+4 - Create a loop so the user can keep doing calculations without restarting the calculator.
+5 - Your calculator works, but it is not polished. 
